@@ -128,7 +128,8 @@ Here is the example of architecture of **quiz.json** file.
 Now its time to role play as a student.
 When you login as a student to the system, system will generate 10 random questions from the quiz bank. 
 
-**Here No questions will be repeated in the same quiz, that is ensured**.
+_**Here No questions will be repeated in the same quiz, that is ensured**._
+
 _Let show an example of output when student will login to the system._
 
 _System:> Welcome to the quiz! We will throw you 10 questions. Each MCQ mark is 1 and no negative marking. Are you ready? Press 's' for start._
