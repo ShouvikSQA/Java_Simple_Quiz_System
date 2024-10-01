@@ -4,6 +4,8 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class GiveQuiz {
@@ -26,10 +28,18 @@ public class GiveQuiz {
         int count = 0;
         String repeat;
         while (true) {
-
+            HashSet<Integer> set = new HashSet<>();
             for (int i = 1; i <= 10; i++) {
 
                 int questionNumber = Utils.generateRandomQuestionNumber(0, questionBank.size() - 1);
+                if(i==1) set.add(questionNumber);
+
+                while( set.contains(questionNumber)  ){
+                    questionNumber = Utils.generateRandomQuestionNumber(0, questionBank.size() - 1);
+                }
+
+                set.add(questionNumber);
+
                 JSONObject qsnObj = (JSONObject) questionBank.get(questionNumber);
 
 

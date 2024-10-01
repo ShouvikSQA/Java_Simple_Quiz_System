@@ -278,5 +278,53 @@
     "question": "Which of the following testing is also known as white-box testing?",
     "option 1": "Structural testing",
     "option 2": "Error guessing technique"
+  },
+  {
+    "answerkey": 4,
+    "option 3": "Test Case",
+    "option 4": "Test Plan",
+    "question": "Which Test Document is used to define the Exit Criteria of Testing?",
+    "option 1": "Defect Report",
+    "option 2": "Test Summary Report"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Different Tools to perform Regression Testing",
+    "option 4": "How many more test cases need to write?",
+    "question": "Impact analysis helps us to decide which of the following testing?",
+    "option 1": "Exit Criteria",
+    "option 2": "How much regression testing should be done?"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Failure",
+    "option 4": "Error",
+    "question": " ------ are the problems that threaten the success of a project but which has not yet happened.",
+    "option 1": "Risk",
+    "option 2": "Bug"
+  },
+  {
+    "answerkey": 2,
+    "option 3": "Beta testing",
+    "option 4": "Unit testing",
+    "question": "Which of the following testing is refers to as a fault-based testing technique?",
+    "option 1": "Stress testing",
+    "option 2": "Mutation testing"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Black box testing",
+    "option 4": "Both a & c",
+    "question": "What is component testing?",
+    "option 1": "White-box testing",
+    "option 2": "Grey box testing"
+  },
+  {
+    "answerkey": 1,
+    "option 3": "Yellow- box Testing",
+    "option 4": "All of the above",
+    "question": "Which of the following testing technique can be used in order to determine the validation test?",
+    "option 1": "Black-box Testing",
+    "option 2": "White-box Testing"
   }
 ]
