@@ -3,6 +3,7 @@
 ## Project Summary
 - Here We cave created a project by using Java Programming Language.
 - In the Project System , we can login as an admin and create quiz questions . Or we can login as a student and perticipate in the quiz exam.
+- **Here No questions will be repeated in the same quiz, that is ensured**
 
 ## Prerequisites
 
@@ -125,7 +126,9 @@ Here is the example of architecture of **quiz.json** file.
 ]
 
 Now its time to role play as a student.
-When you login as a student to the system, system will generate 10 random questions from the quiz bank. Don't confuse if system will return you the duplicate questions. The more you add questions in quiz bank, probability of showing duplicate questions will be less. 
+When you login as a student to the system, system will generate 10 random questions from the quiz bank. 
+
+**Here No questions will be repeated in the same quiz, that is ensured**
 Let show an example of output when student will login to the system.
 
 _System:> Welcome to the quiz! We will throw you 10 questions. Each MCQ mark is 1 and no negative marking. Are you ready? Press 's' for start._
